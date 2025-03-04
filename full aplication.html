@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Local Community News Portal">
+    <title>Local Community News Portal</title>
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="C:\URVI\APPLICATION 1.css">
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <div class="logo">
+        <img src="C:\URVI\image 1..png" alt="Community News Logo">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#community">Community</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#login">Login</a></li>
+            <li><a href="#register">Register</a></li>
+            <li><a href="#privacy">Privacy</a></li>
+            <li><a href="#terms">Terms</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Home Page -->
+<section id="home"></section>
+    <h1>Welcome to the Local Community News Portal</h1>
+    <p>Stay informed with the latest news, events, and happenings in your neighborhood.</p>
+    <img src="C:\URVI\image 2..jpeg" alt="Community Gathering" class="hero-image">
+</section>
+
+<!-- Latest News Page -->
+
+<section id="news">
+    <h1>Latest News</h1>
+    <div class="news-item">
+        <img src="C:\URVI\image 3..jpeg" alt="New Park Opening">
+        <div>
+            <h2>New Park Opening in Downtown</h2>
+            <p>Join us for the grand opening of the new community park this weekend!</p>
+            <a href="news.html">Read More</a>
+        </div>
+    </div>
+    <div class="news-item">
+        <img src="C:\URVI\image 4..jpeg" alt="Local Volunteer Group">
+        <div>
+            <h2>Local Volunteer Group Hits 100 Members</h2>
+            <p>Celebrating a milestone in community service and support.</p>
+            <a href="news.html">Read More</a>
+        </div>
+    </div>
+</section>
+
+
+<!-- Upcoming Events Page -->
+<section id="events">
+    <h1>Upcoming Events</h1>
+    <div class="event-item">
+        <img src="C:\URVI\image 5..jpeg" alt="Community Picnic">
+        <div>
+            <h2>Community Picnic</h2>
+            <p>Date: February 10, 2025 | Location: Downtown Park</p>
+        </div>
+    </div>
+    <div class="event-item">
+        <img src="C:\URVI\image 6..jpeg" alt="Local Farmer’s Market">
+        <div>
+            <h2>Local Farmer’s Market</h2>
+            <p>Date: February 15, 2025 | Location: Main Street</p>
+        </div>
+    </div>
+</section>
+
+<!-- Community Page -->
+<section id="community"></section>
+    <h1>Community Updates</h1>
+    <img src="C:\URVI\image 7..jpeg" alt="Community News" class="community-image">
+    <p>Stay connected with your neighbors and find out about local groups, services, and volunteer opportunities.</p>
+</section>
+
+<!-- About Page -->
+<section id="about"></section>
+    <h1>About Us</h1>
+    <p>We are Local Community News Portal, a website and app that brings you news and events from your own neighborhood! Our team is made up of people who care deeply about community and want to help you stay connected to what's happening nearby.
+
+        Our mission is simple: to provide accurate, helpful, and interesting information to help you navigate your community. We believe that by sharing stories, events, and news, we can help build stronger, more connected neighborhoods.
+        
+        We're a local team, and we're proud to be a part of the community we serve. We welcome your feedback, suggestions, and story ideas – and we look forward to helping you stay informed and engaged in your community!
+        
+        Thanks for joining us!</p>
+</section>
+
+<!-- Contact Page -->
+<section id="contact">
+    <h1>Contact Us</h1>
+    <form action="submit_form.php" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" class="form-input" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" class="form-input" required>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" class="form-textarea" required></textarea>
+
+        <button type="submit" class="form-button">Send Message</button>
+    </form>
+</section>
+
+<!-- Login Page -->
+<section id="login">
+    <h1>Login</h1>
+    <form action="login_action.php" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" class="form-input" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" class="form-input" required>
+
+        <button type="submit" class="form-button">Login</button>
+    </form>
+</section>
+
+<!-- Register Page -->
+<section id="register">
+    <h1>Register</h1>
+    <form action="register_action.php" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" class="form-input" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" class="form-input" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" class="form-input" required>
+
+        <button type="submit" class="form-button">Register</button>
+    </form>
+</section>
+
+<!-- Privacy Page -->
+<section id="privacy">
+    <h1>Privacy Policy</h1>
+    <p>At Local Community News Portal, we care about your privacy. When you use our app, we collect some information about you, like your name, email address, and location. We use this information to give you the best experience possible, like showing you news and events that are happening right in your neighborhood.
+
+        We also use information to improve our app and make it more useful for you. Sometimes, we might share your information with partners who help us make the app work better. We promise to only share your information with people who will protect it just like we do.
+        
+        You have the right to control your own information. You can update your info or delete your account whenever you want. We also give you the option to opt-out of emails and notifications if you don't want to receive them anymore.
+        
+        We take security very seriously. We use special tools to protect your information and keep it safe. We also do regular checks to make sure everything is working correctly..</p>
+</section>
+<!-- Terms Page -->
+<section id="terms">
+    <h1>Terms of Service</h1>
+    <p>At Local Community News Portal, we take the security of your information very seriously. We use something called encryption to protect your data. This means that when you send us information, like your name and email address, it gets scrambled so that only we can unscramble it and read it.
+
+        We also have something called access controls in place. This means that only certain people on our team can see your information, and they have to use a special password to get to it. We make sure that these passwords are very strong and hard to guess.
+
+Another way we keep your information safe is by doing regular security audits. This is like a check-up for our computer systems to make sure they're working correctly and that there are no weaknesses that someone could exploit.
+
+We also promise to notify you if there's ever a security breach. This means that if someone does manage to get into our system and access your information, we'll let you know right away so you can take steps to protect yourself.
+
+Finally, we want to remind you that you play a big role in keeping your information safe too. Make sure to choose a strong password for your account, and don't share it with anyone. If you have any questions or concerns about security, feel free to contact us.
+    </p>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2025 Local Community News Portal. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
