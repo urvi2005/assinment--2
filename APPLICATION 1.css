@@ -1,0 +1,184 @@
+/* styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #3b5998;
+    color: #fff;
+    padding: 20px ;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .logo img {
+    max-width: 120px;
+}
+
+header nav {
+    margin-top: 0px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ffd700;
+}
+
+/* Section styles */
+section {
+    padding: 40px 20px  auto;
+    margin: 20px auto;
+    max-width: 1200px  auto;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px auto;
+}
+
+h1, h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Image styles */
+.hero-image, .news-image, .events-image, .community-image {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero-image {
+    max-height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* News and event items */
+.news-item, .event-item {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s;
+}
+
+.news-item:hover, .event-item:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.news-item img, .event-item img {
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.news-item h2, .event-item h2 {
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}
+
+.news-item p, .event-item p {
+    color: #555;
+    font-size: 1rem;
+}
+
+/* Form styles */
+.form-input, .form-textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.form-input:focus, .form-textarea:focus {
+    border-color: #3b5998;
+    outline: none;
+}
+
+.form-button {
+    padding: 12px 25px;
+    border: none;
+    background-color: #3b5998;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+
+.form-button:hover {
+    background-color: #2d4373;
+}
+
+/* Footer styles */
+footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 33px;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+footer p {
+    font-size: auto;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 900px) {
+    header nav ul {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    header nav ul li {
+        display: block;
+        margin-bottom: 10px  auto;
+    }
+
+    .news-item, .event-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .news-item img, .event-item img {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+}
